@@ -9,7 +9,7 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost']
+ALLOWED_HOSTS = ['89.169.164.148', '127.0.0.1', 'localhost', 'yataskistd.gotdns.ch']
 
 
 # Application definition
