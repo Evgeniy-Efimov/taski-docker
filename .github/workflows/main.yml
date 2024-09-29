@@ -121,4 +121,4 @@ jobs:
         with:
           context: ./gateway/
           push: true
-          tags: evgenyef/taski_gateway:latest 
+          tags: evgenyef/taski_gateway:latest
