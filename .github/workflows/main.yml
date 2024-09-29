@@ -60,7 +60,7 @@ jobs:
         with:
           context: ./backend/
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/taski_backend:latest 
+          tags: evgenyef/taski_backend:latest 
 		  
   frontend_tests:
     runs-on: ubuntu-latest
@@ -101,7 +101,7 @@ jobs:
         with:
           context: ./frontend/
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/taski_frontend:latest 
+          tags: evgenyef/taski_frontend:latest 
    
   build_gateway_and_push_to_docker_hub:
     name: Push gateway Docker image to DockerHub
@@ -121,4 +121,4 @@ jobs:
         with:
           context: ./gateway/
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/taski_gateway:latest 
+          tags: evgenyef/taski_gateway:latest 
